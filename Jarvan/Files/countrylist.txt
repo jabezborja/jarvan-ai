@@ -1,0 +1,201 @@
+afghanistan: Kabul
+albania:	Tirana
+algeria: Algiers
+andorra: Andorra la Vella
+angola:	Luanda
+antigua andbarbuda:	Saint John's
+argentina:	Buenos Aires
+armenia:	Yerevan
+australia:	Canberra
+austria:	Vienna
+azerbaijan:	Baku
+bahamas:	Nassau
+bahrain:	Manama
+bangladesh:	Dhaka
+barbados:	Bridgetown
+belarus:	Minsk
+belgium:	Brussels
+belize:	Belmopan
+benin:	Porto-Novo
+bhutan:	Thimphu
+bolivia	La Paz (administrative): Sucre (judicial)
+bosnia AndHerzegovina: 	Sarajevo
+botswana:	Gaborone
+brazil:	Brasilia
+brunei:	Bandar Seri Begawan
+bulgaria:	Sofia
+burkina Faso:	Ouagadougou
+burundi:	Bujumbura
+cabo Verde:	Praia
+cambodia:	Phnom Penh
+cameroon:	Yaoundé
+canada:	Ottawa
+central African Republic:	Bangui
+chad:	N'Djamena
+chile:	Santiago
+china:	Beijing
+colombia:	Bogotá
+comoros:	Moroni
+congo, Republic Of The:	Brazzaville
+cepublic Of The Congo :	Brazzaville
+cepublic Of Congo :	Brazzaville
+congo, Democratic Republic Of The:	Kinshasa
+democratic Republic Of The Congo:	Kinshasa
+democratic Republic Of Congo:	Kinshasa
+costa Rica:	San Jose
+cote d'Ivoire:	Yamoussoukro
+croatia:	Zagreb
+cuba:	Havana
+cyprus:	Nicosia
+czech Republic:	Prague
+denmark:	Copenhagen
+djibouti:	Djibouti (city)
+dominica:	Roseau
+dominican Republic:	Santo Domingo
+ecuador:	Quito
+egypt:	Cairo
+el Salvador:	San Salvador
+equatorial Guinea:	Malabo
+eritrea:	Asmara
+estonia:	Tallinn
+ethiopia:	Addis Ababa
+fiji:	Suva
+finland:	Helsinki
+france:	Paris
+gabon:	Libreville
+gambia:	Banjul
+georgia:	Tbilisi
+germany:	Berlin
+ghana:	Accra
+greece:	Athens
+grenada:	St. George's
+guatemala:	Guatemala City
+guinea:	Conakry
+guinea-Bissau:	Bissau
+guyana:	Georgetown
+haiti:	Port-au-Prince
+honduras:	Tegucigalpa
+hungary:	Budapest
+iceland:	Reykjavik
+india:	New Delhi
+indonesia:	Jakarta
+iran:	Tehran
+iraq:	Baghdad
+ireland:	Dublin
+israel:	Jerusalem
+italy:	Rome
+jamaica:	Kingston
+japan:	Tokyo
+jordan:	Amman
+kazakhstan:	Astana
+kenya:	Nairobi
+kiribati:	South Tarawa
+kosovo:	Pristina
+kuwait:	Kuwait City
+kyrgyzstan:	Bishkek
+laos:	Vientiane
+latvia:	Riga
+lebanon:	Beirut
+lesotho:	Maseru
+liberia:	Monrovia
+libya:	Tripoli
+liechtenstein:	Vaduz
+lithuania:	Vilnius
+luxembourg:	Luxembourg
+macedonia:	Skopje
+madagascar:	Antananarivo
+malawi:	Lilongwe
+malaysia:	Kuala Lumpur
+maldives:	Male
+mali:	Bamako
+malta:	Valletta
+marshall Islands:	Majuro
+mauritania:	Nouakchott
+mauritius:	Port Louis
+mexico:	Mexico City
+micronesia:	Palikir
+moldova:	Chisinau
+monaco:	Monaco
+mongolia:	Ulaanbaatar
+montenegro:	Podgorica
+morocco:	Rabat
+mozambique:	Maputo
+myanmar (Burma):	Naypyidaw
+namibia:	Windhoek
+nauru:	Yaren District
+nepal:	Kathmandu
+netherlands:	Amsterdam
+new Zealand:	Wellington
+nicaragua:	Managua
+niger:	Niamey
+nigeria:	Abuja
+north Korea:	Pyongyang
+norway:	Oslo
+oman:	Muscat
+pakistan:	Islamabad
+palau:	Ngerulmud
+palestine:	Ramallah
+panama:	Panama City
+papua New Guinea:	Port Moresby
+paraguay:	Asunción
+peru:	Lima
+philippines:	Manila
+poland:	Warsaw
+portugal:	Lisbon
+qatar:	Doha
+romania:	Bucharest
+russia:	Moscow
+rwanda:	Kigali
+saint Kitts And Nevis:	Basseterre
+saint Lucia:	Castries
+saint Vincent And The Grenadines:	Kingstown
+samoa:	Apia
+san Marino:	San Marino
+sao Tome And Principe:	São Tomé
+saudi Arabia:	Riyadh
+senegal:	Dakar
+serbia:	Belgrade
+seychelles:	Victoria
+sierra Leone:	Freetown
+singapore:	Singapore
+slovakia:	Bratislava
+slovenia:	Ljubljana
+solomon Islands:	Honiara
+somalia:	Mogadishu
+south Africa:	Pretoria (administrative); Cape Town (legislative); Bloemfontein (judicial)
+south Korea:	Seoul
+south Sudan:	Juba
+spain:	Madrid
+sri Lanka:	Sri Jayawardenepura Kotte
+sudan:	Khartoum
+suriname:	Paramaribo
+swaziland:	Mbabane
+sweden:	Stockholm
+switzerland:	Bern
+syria:	Damascus
+taiwan:	Taipei
+tajikistan:	Dushanbe
+tanzania:	Dodoma
+thailand:	Bangkok
+timor-Leste:	Dili
+togo:	Lomé
+tonga:	Nukuʻalofa
+trinidad AndTobago:	Port of Spain
+tunisia:	Tunis
+turkey:	Ankara
+turkmenistan:	Ashgabat
+tuvalu:	Funafuti
+uganda:	Kampala
+ukraine:	Kyiv
+united Arab Emirates:	Abu Dhabi
+united Kingdom:	London
+united States Of America:	Washington, D.C.
+uruguay:	Montevideo
+uzbekistan:	Tashkent
+vanuatu:	Port Vila
+vatican City: (Holy See)	Vatican City
+venezuela:	Caracas
+vietnam:	Hanoi
+yemen:	Sana'a
+zambia:	Lusaka
+zimbabwe:	Harare
