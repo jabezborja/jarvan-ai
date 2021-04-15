@@ -1,9 +1,9 @@
 import os
 import time
 import threading
-from .Modules import capitals, date, domath
+from .Modules import capitals, date, domath, music
 from . import checkers
-from .SpeakManager.speaker import speak
+from .SpeakManager.speaker import speak, shadow_speaker
 
 
 class Commands:
@@ -13,13 +13,12 @@ class Commands:
         self.capitals = capitals.Capital()
         self.checkers = checkers.Checkers()
         self.domath = domath.DoMath()
+        self.music = music.playmusic
         self.is_load = False
 
     ## Jarvan Commands ##
     def commands(self, command):
         self.is_load = True
-        thread = threading.Thread(target=self.loading)
-        thread.start()
         if 'good morning' in command:
             self.is_load = False
             self.goodmorning()
@@ -28,6 +27,8 @@ class Commands:
             self.date()
         elif 'capital' in command:
             self.capital(command)
+        elif 'play' in command:
+            self.play_music(command)
         elif self.checkers.is_operation(command):
             self.is_load = False
             self.answer_math(command)
@@ -49,28 +50,11 @@ class Commands:
 
         self.speak(capital)
 
+    def play_music(self, command):
+        music = self.music(command)
+        speak("Music is done.")
+
     def answer_math(self, command):
         answer = self.domath.calculate(command)
 
         self.speak(answer)
-
-    def loading(self):
-        os.system('cls')
-        load = self.is_load
-        while load:
-            l = 'Loading'
-            print(l)
-            time.sleep(1)
-            os.system('cls')
-            l += '.'
-            print(l)
-            time.sleep(1)
-            os.system('cls')
-            l += '.'
-            print(l)
-            time.sleep(1)
-            os.system('cls')
-            l += '.'
-            print(l)
-            time.sleep(1)
-            os.system('cls')

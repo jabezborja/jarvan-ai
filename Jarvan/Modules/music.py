@@ -1,33 +1,29 @@
-
 ## IMPORTS ##
 import os
 import random
-import speech_recognition as sr
-from threading import Thread
 from playsound import playsound
-from VA.speaker import speak
-from VA.log import log
+from ..SpeakManager.speaker import speak
 
 ### MUSIC PATH ###
 MUSIC_PATH = r'C:\\Users\\Jabez Borja\\Music\\Musics'
 
+# ENTRY POINT #
 def playmusic(music):
 	if ('favorite' in music):
-		playFavorite()
+		music_played = playFavorite()
 
 	if ('shuffle', 'some music', 'some song' in music):
-		playShuffle(music)
+		music_played = playShuffle(music)
+
+	return music_played
 
 def playsong(music, isRepeat):
 	speak("Okay, choosing a music from your playlist...")
-
-	os.system('cls')
 
 	if isRepeat:
 		musics = randomizeMusic()
 
 		print("Now playing " + musics[0] + "...")
-		logmusic(musics[0], "play_musc_shuf_rpt")
 		playsound(MUSIC_PATH + fr"\\{musics[0]}")
 		print('Music ended')
 
@@ -36,18 +32,13 @@ def playsong(music, isRepeat):
 	musics = randomizeMusic()
 
 	print("Now playing " + musics[1] + "...")
-	logmusic(musics[0], "playmusc_shuf")
 	playsound(MUSIC_PATH + fr"\\{musics[0]}")
 	print('Music ended')
 
 def playFavorite():
 	speak("Okay")
-	os.system('cls')
 	print("Now playing EMMAN - Teka Lang")
-	logmusic("EMMAN - Teka Lang", "playmusc_fav")
 	playsound(MUSIC_PATH + r'\\EMMAN - Teka Lang (Official Lyric Video).mp3')
-
-	return 
 
 def playShuffle(music):
 	isRepeat = False
@@ -55,7 +46,7 @@ def playShuffle(music):
 	if ('repeat' in music):
 		isRepeat = True
 
-	playsong(music, isRepeat)
+	return playsong(music, isRepeat)
 
 def randomizeMusic():
 	music_main = shuffleMusic()
@@ -82,5 +73,3 @@ def shuffleMusic():
 
 	return music
 
-def logmusic(music, methodID):
-	log("Played " + music + f" (MID: {methodID})")
